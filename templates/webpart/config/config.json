@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "acronym-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/acronym/AcronymWebPart.js",
+          "manifest": "./src/webparts/acronym/AcronymWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AcronymWebPartStrings": "lib/webparts/acronym/loc/{locale}.js"
+  }
+}
